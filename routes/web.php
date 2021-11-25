@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
-Route::get('/','PagesController@index');
+Route::get('/','DashboardController@index')->name('dashboard');
 
 Route::get('/about','PagesController@about');
 
